@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerar Relatório</title>
+</head>
+<body>
+<h1>Gerar Relatório</h1>
+<form action="/relatorio/gerar" method="post">
+    <label for="cliente">Nome do Cliente:</label>
+    <input type="text" id="cliente" name="cliente"><br><br>
+    <label for="produtos">Produtos (nome, quantidade, preço):</label><br>
+    <textarea id="produtos" name="produtos" rows="4" cols="50"></textarea><br><br>
+    <input type="submit" value="Gerar Relatório">
+</form>
+</body>
+</html>
+
